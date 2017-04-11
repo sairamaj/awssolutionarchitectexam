@@ -199,11 +199,82 @@ Windows and Linux operating systems
 
 ## Mobile Services
 
-### 
+### AWS Mobile hub
+* provides an integrated console experience that you can use to quickly create and configure powerful mobile app back end features and integrate them into your mobile app
 
-### 
+### Amazon Cognito
+* lets you easily add user sign-up and sign-in to your mobile and web apps.With Amazon Cognito, you also have the option to authenticate users through social identity providers such as Facebook, Twitter, or Amazon, with SAML identity solutions, or by using your own identity system
 
-### 
+### Amazon Pinpoint 
+*  makes it easy to run targeted campaigns to drive user engagement in mobile apps
 
-### 
+### AWS Mobile SDK
+* helps you build high quality mobile apps quickly and easily.
+
+### Amazon Mobile Analytics
+*  measure app usage and app revenue
+
+## Application Services
+
+### AWS Step Functions
+* makes it easy to coordinate the components of distributed applications and microservices using visual workflows
+
+### Amazon API Gateway
+* a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale
+
+### Amazon Elastic Transcoder
+* is media transcoding in the cloud
+
+### Amazon SWF
+* Simple Workflow helps developers build, run, and scale background jobs that have parallel or sequential steps
+
+## Messaging
+
+### Amazon SQS
+* Simple Queue Service  fast, reliable, scalable, fully managed message queuing service.
+
+### Amazon SNS
+*  fast, flexible, fully managed push notification service that lets you send individual messages or to fan-out messages to large numbers of recipients
+
+### Amazon SES 
+* Simple Email Service  fast, flexible, fully managed push notification service that lets you send individual messages or to fan-out messages to large numbers of recipients
+
+## Business Productivity
+
+### Amazon WorkDocs
+*  is a fully managed, secure enterprise storage and sharing service with strong administrative controls and feedback capabilities that improve user productivity
+
+### Amazon WorkMail
+*  is a secure, managed business email and calendar service with support for existing desktop and mobile email client application
+
+### Amazon Chime
+*  is a communications service that transforms online meetings with a secure, easy-to-use application that you can trust
+
+## Desktop & App Streaming
+
+### Amazon WorkSpaces
+* is a fully managed, secure desktop computing service that runs on the AWS Cloud
+
+### Amazon AppStream 2.0
+*  fully managed, secure application streaming service that allows you to stream desktop applications from AWS to any device running a web browser, without rewriting them
+
+## Internet of Things
+
+### AWS IoT Platform
+*  managed cloud platform that lets connected devices easily and securely interact with cloud applications and other devices
+
+### AWS Greengrass
+* is software that lets you run local compute, messaging, and data caching for connected devices in a secure way
+
+### AWS IoT Button
+* is a programmable button based on the Amazon Dash Button hardware.130 This simple Wi-Fi device is easy to configure, and it’s designed for developers to get start
+
+## Game Development
+
+### Amazon GameLift
+* is a managed service for deploying, operating, and scaling dedicated game servers for session-based multi player games
+
+### Amazon Lumberyard
+* is a free, cross-platform, 3D game engine for you to create the highest quality games, connect your games to the vast compute and storage of the AWS Cloud, and engage fans on Twitch
+
 [Source](https://d0.awsstatic.com/whitepapers/aws-overview.pdf)
