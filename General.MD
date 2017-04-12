@@ -26,6 +26,11 @@
 * Google App Engine 2008
 * Azure Beta Nov -2009
 
-
+## Regions
+* Geographical location
+## Availability Zones
+* Data Centers within Regions
+## Edge Locations
+* Services to consume ( not to host services ( for ex: DNS - AWS Route 53))
 
 
