@@ -1,1 +1,1 @@
-![Certification Tracks](https://github.com/sairamaj/awssolutionarchitectexam/tree/master/images)
+![Certification Tracks](https://github.com/sairamaj/awssolutionarchitectexam/blob/master/images/certificationtracks.png)
