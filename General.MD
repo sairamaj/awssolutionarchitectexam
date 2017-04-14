@@ -55,3 +55,27 @@
 * 2 types
   * Standard
   * Reduced Redundancy Storage(RRS) 
+
+## ECB
+* Not internet accessible
+* Persistent file system for EC2
+* Does not need to be attached to an instance.
+* Can be transferred between AZ
+* Supports incremental snapshots
+* EBS leverages S# for snapshot storage
+
+## Glacier
+* Very cheap storage
+* Useful for infrequently used data. Ideal for backup
+* Very, very slow retrieval times ( 4- 6 hours)
+* High durability
+* Cost for restore
+* AES 256 bit data encryption
+ 
+## EC2
+* Pay-per-use, scalable platform for VMs
+* Supports Windows / Linux instances
+* Amazon Machine Image(AMI) refers to a virtual disk template
+* You can import/export your own AMIs (not amazon created AMIs because of license keys associated with those images)
+
+![AWS terminology](https://github.com/sairamaj/awssolutionarchitectexam/blob/master/images/awsterminology.png)
