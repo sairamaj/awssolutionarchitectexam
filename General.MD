@@ -78,4 +78,32 @@
 * Amazon Machine Image(AMI) refers to a virtual disk template
 * You can import/export your own AMIs (not amazon created AMIs because of license keys associated with those images)
 
+## Elastic Load Balancing (ELB)
+* Region wide load balancer
+* Can be used internally or externally
+* SSL termination and processing
+* ELB EC2 health check
+* Router 53 performs ELB health checks
+
+## Route 53
+* DNS is crucial for any environment
+* World wide distributed DNS
+* 100% SLA
+* Route 53 API
+* Server health checks
+
+## AWS Cloud watch
+* Basic Monitoring
+* Detailed Monitoring
+* Set alarms and alerts
+* Notifications via SES,SNS
+* Custom Monitoring through API
+* Integrate with Auto scaling
+* Mobile app for basic monitoring and management
+
+## Auto scaling
+* Expand or shrink instances on-demand
+* Cloudwatch or manual schedule configuration
+* Notifications
+
 ![AWS terminology](https://github.com/sairamaj/awssolutionarchitectexam/blob/master/images/awsterminology.png)
