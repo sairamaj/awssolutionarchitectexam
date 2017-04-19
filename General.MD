@@ -78,6 +78,7 @@
 * Amazon Machine Image(AMI) refers to a virtual disk template
 * You can import/export your own AMIs (not amazon created AMIs because of license keys associated with those images)
 
+
 ## EC2 Compute Unit(ECU)
 * A relative measure of processing power
 * Abstract CPU hardware changes
@@ -128,3 +129,55 @@
 ![AWS terminology](https://github.com/sairamaj/awssolutionarchitectexam/blob/master/images/awsterminology.png)
 
 [AWS Info](http://cdn.awsnow.info/)
+
+## Elastic Load Balancing (ELB)
+* Region wide load balancer
+* Can be used internally or externally
+* SSL termination and processing
+* ELB EC2 health check
+* Router 53 performs ELB health checks
+
+## Route 53
+* DNS is crucial for any environment
+* World wide distributed DNS
+* 100% SLA
+* Route 53 API
+* Server health checks
+
+## AWS Cloud watch
+* Basic Monitoring
+* Detailed Monitoring
+* Set alarms and alerts
+* Notifications via SES,SNS
+* Custom Monitoring through API
+* Integrate with Auto scaling
+* Mobile app for basic monitoring and management
+
+## Auto scaling
+* Expand or shrink instances on-demand
+* Cloudwatch or manual schedule configuration
+* Notifications
+
+
+## SES (Simple Email Service)
+* Cost effective bulk email service 
+* Cost based on number of emails sent
+* Outbound-only email-sending service
+* Leverages Amazon email reputation
+* Initially limited to 10,000 emails/day
+
+## SQS (Simple Queue Service)
+* Fast, Reliable and scalable
+* Unlimited messages and queue size
+* Payload up to 256KB
+* Billed in chunks of 64KB payloads
+* First milliion requests are Free
+* $0.50/milliion SQS requests
+
+## SNS(  Simple Notification Service)
+* Push messaging service
+* HTTP/HTTPS
+* Email
+* Email-Json
+* SMS
+* Amazon SQS queues
