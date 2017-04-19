@@ -56,7 +56,7 @@
   * Standard
   * Reduced Redundancy Storage(RRS) 
 
-## ECB
+## EBS (Elast Block  storage)
 * Not internet accessible
 * Persistent file system for EC2
 * Does not need to be attached to an instance.
@@ -78,4 +78,53 @@
 * Amazon Machine Image(AMI) refers to a virtual disk template
 * You can import/export your own AMIs (not amazon created AMIs because of license keys associated with those images)
 
+## EC2 Compute Unit(ECU)
+* A relative measure of processing power
+* Abstract CPU hardware changes
+* One ECU is equivalent to 1.0-1.2 GHZ 2007 Intel Opteron or 2007 Xeon
+* Consistent amount of CPU capacity regardless of hardware
+* Each instance type may be used on different physical processors
+* Manage consistency through benchmarks and tests
+
+
+## EC2 Instance types
+* Micro instances
+* General purpose
+* CPU Optimized
+* GPU instances
+* Memory Optimized
+* Storage Optimized
+
+## [EC2 pricing](http://aws.amazon.com/ec2/pricing)
+* OnDemand
+  * The default type
+  * The most expensive option
+  * No commitment
+  * Price vary by AWS regions
+  * Billed on hourly basis (ex: 20mins usage means 1 hour charge)
+
+* Reserved Instance
+  * Less expensive
+  * Required commitment of 1 or 3 years
+  * Has an upfront const
+  * Lower hourly rate
+  * RI can be sold on AWS Market place
+  * you commit to utilization
+    * Light utilization
+    * Medium utilization
+    * Heavy utilization ( 100 % running)
+* Spot instances
+  * Unused AWS capacity
+  * Very cheap hourly rate
+  * Not guaranteed
+  * Based on bid
+  * Ideal for raw-processing power, grid-like applications
+  * Highly scriptable
+
+* Misc pricing
+
+[Cost estimator](http://url here)
+
 ![AWS terminology](https://github.com/sairamaj/awssolutionarchitectexam/blob/master/images/awsterminology.png)
+
+[AWS Info](http://cdn.awsnow.info/)
