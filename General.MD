@@ -181,3 +181,32 @@
 * Email-Json
 * SMS
 * Amazon SQS queues
+
+## CloudFront
+* Global content delivery network
+* Leverages all AWS edge locations
+* Cache static content
+* Proxy dynamic information
+* Work with AWS and non-AWS services
+
+## CloudFormation
+* Automate AWS resource provisioning
+* Free service
+* Deleting the cloudformation deletes all instances except data
+
+## Elastic Beanstalk
+* More for developers
+* Node.JS
+* Ruby
+* PHP
+* Python
+* IIS
+* Tomcat
+
+## CloudTrail
+* Records all API calls
+* Log file includes: (Identity api caller, Time, source ip, etc,)
+* Maintain history
+
+
+
