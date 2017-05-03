@@ -56,7 +56,7 @@
   * Standard
   * Reduced Redundancy Storage(RRS) 
 
-## ECB
+## EBS (Elast Block  storage)
 * Not internet accessible
 * Persistent file system for EC2
 * Does not need to be attached to an instance.
@@ -78,4 +78,135 @@
 * Amazon Machine Image(AMI) refers to a virtual disk template
 * You can import/export your own AMIs (not amazon created AMIs because of license keys associated with those images)
 
+
+## EC2 Compute Unit(ECU)
+* A relative measure of processing power
+* Abstract CPU hardware changes
+* One ECU is equivalent to 1.0-1.2 GHZ 2007 Intel Opteron or 2007 Xeon
+* Consistent amount of CPU capacity regardless of hardware
+* Each instance type may be used on different physical processors
+* Manage consistency through benchmarks and tests
+
+
+## EC2 Instance types
+* Micro instances
+* General purpose
+* CPU Optimized
+* GPU instances
+* Memory Optimized
+* Storage Optimized
+
+## [EC2 pricing](http://aws.amazon.com/ec2/pricing)
+* OnDemand
+  * The default type
+  * The most expensive option
+  * No commitment
+  * Price vary by AWS regions
+  * Billed on hourly basis (ex: 20mins usage means 1 hour charge)
+
+* Reserved Instance
+  * Less expensive
+  * Required commitment of 1 or 3 years
+  * Has an upfront const
+  * Lower hourly rate
+  * RI can be sold on AWS Market place
+  * you commit to utilization
+    * Light utilization
+    * Medium utilization
+    * Heavy utilization ( 100 % running)
+* Spot instances
+  * Unused AWS capacity
+  * Very cheap hourly rate
+  * Not guaranteed
+  * Based on bid
+  * Ideal for raw-processing power, grid-like applications
+  * Highly scriptable
+
+* Misc pricing
+
+[Cost estimator](http://url here)
+
 ![AWS terminology](https://github.com/sairamaj/awssolutionarchitectexam/blob/master/images/awsterminology.png)
+
+[AWS Info](http://cdn.awsnow.info/)
+
+## Elastic Load Balancing (ELB)
+* Region wide load balancer
+* Can be used internally or externally
+* SSL termination and processing
+* ELB EC2 health check
+* Router 53 performs ELB health checks
+
+## Route 53
+* DNS is crucial for any environment
+* World wide distributed DNS
+* 100% SLA
+* Route 53 API
+* Server health checks
+
+## AWS Cloud watch
+* Basic Monitoring
+* Detailed Monitoring
+* Set alarms and alerts
+* Notifications via SES,SNS
+* Custom Monitoring through API
+* Integrate with Auto scaling
+* Mobile app for basic monitoring and management
+
+## Auto scaling
+* Expand or shrink instances on-demand
+* Cloudwatch or manual schedule configuration
+* Notifications
+
+
+## SES (Simple Email Service)
+* Cost effective bulk email service 
+* Cost based on number of emails sent
+* Outbound-only email-sending service
+* Leverages Amazon email reputation
+* Initially limited to 10,000 emails/day
+
+## SQS (Simple Queue Service)
+* Fast, Reliable and scalable
+* Unlimited messages and queue size
+* Payload up to 256KB
+* Billed in chunks of 64KB payloads
+* First milliion requests are Free
+* $0.50/milliion SQS requests
+
+## SNS(  Simple Notification Service)
+* Push messaging service
+* HTTP/HTTPS
+* Email
+* Email-Json
+* SMS
+* Amazon SQS queues
+
+## CloudFront
+* Global content delivery network
+* Leverages all AWS edge locations
+* Cache static content
+* Proxy dynamic information
+* Work with AWS and non-AWS services
+
+## CloudFormation
+* Automate AWS resource provisioning
+* Free service
+* Deleting the cloudformation deletes all instances except data
+
+## Elastic Beanstalk
+* More for developers
+* Node.JS
+* Ruby
+* PHP
+* Python
+* IIS
+* Tomcat
+
+## CloudTrail
+* Records all API calls
+* Log file includes: (Identity api caller, Time, source ip, etc,)
+* Maintain history
+
+
+
