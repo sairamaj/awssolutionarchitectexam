@@ -62,7 +62,7 @@
 * Does not need to be attached to an instance.
 * Can be transferred between AZ
 * Supports incremental snapshots
-* EBS leverages S# for snapshot storage
+* EBS leverages S# fo r snapshot storage
 
 ## Glacier
 * Very cheap storage
