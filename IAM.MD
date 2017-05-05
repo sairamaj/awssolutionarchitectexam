@@ -74,4 +74,17 @@
 * Worry-free policy editing
 * https://policysim.aws.amazon.com
 
+## Roles
+* Set of permissions
+* Permissions are assigned to roles, not users
+* Can be assumed by users, web services, or a federated user
+* Helps in Single signon
+* Provide temporary credentials for granting access to applications and services
+* Federate with existing and external identity providers
+* Provides basis for cross-account access
 
+## Delegation
+* Assigning privileges to other people on resources you own
+* Required setting up trust between AWS accounts
+* Delegation can be done within the same AWS account, between accounts owned by the same organization, or between accounts owned by different organizations
+* Delegating permissions to AWS resources to users belonging to external identity sources (ex: Google , Facebook accounts)
