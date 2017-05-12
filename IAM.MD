@@ -88,3 +88,52 @@
 * Required setting up trust between AWS accounts
 * Delegation can be done within the same AWS account, between accounts owned by the same organization, or between accounts owned by different organizations
 * Delegating permissions to AWS resources to users belonging to external identity sources (ex: Google , Facebook accounts)
+
+## Auditing
+* Who did it
+* Which resource
+* What action
+* When
+* Where 
+* What was the final result
+
+### Auditing Tools
+* Cloud Trail (api access)
+  * api activity
+  * logs to s3 bucket
+    * user, access, request parameters, source ip, time, response
+  * use cases
+    * used for security analysis
+    * track changes to aws resources
+    * troubleshoot operational issues
+    * used for compliance tool
+  * Accessing
+    * CloudTrail console
+    * CloudTrail cli
+    * CloudTrail APIs
+    * using SDKs
+  * Cost is storing on S3
+  * One trail in region is __FREE__
+
+* Inspector ( installs on EC2)
+  * is an automated security assessment service that helps improve security and compliance of applications in AWS.
+  * Agent
+  * Security findings
+  * selectable rules.
+
+* Trusted Advisor (helps to figure out to optimize account.)
+  * is an online resource to help reduce cost, increase performance, and improve security by optimizing the AWS environment.
+  * Cost optimization
+  * Performance
+  * Security
+  * Fault tolerance
+
+
+* Access Advisor 
+  * Identity unnecessary permissions
+* Credential report
+  * Keys and access to user
+  * Lists all users in account and the status of their various credentials, including password, access keys, and MFA devices.
+
+
+
